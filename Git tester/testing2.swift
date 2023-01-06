@@ -8,4 +8,5 @@
 import Foundation
 struct MyModel{
     var name: String?
+    var int: Int = 65
 }
