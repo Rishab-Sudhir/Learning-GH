@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
             VStack{
-                Image(systemName: "figure.wave")
+                Image(systemName: "figure.wave").resizable()
+                    .frame(width: 100,height: 150)
                 Text("wasssaaap!")
             }
         .padding()
